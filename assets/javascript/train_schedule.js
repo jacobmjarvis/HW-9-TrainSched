@@ -3,11 +3,10 @@ var config = {
     apiKey: "AIzaSyBE9a_iu3V4bZ1wiJUSRpGBlvHEtpyizgw",
     authDomain: "trainscheduler-c5087.firebaseapp.com",
     databaseURL: "https://trainscheduler-c5087.firebaseio.com",
-    projectId: "trainscheduler-c5087",
-    storageBucket: "trainscheduler-c5087.appspot.com",
-    messagingSenderId: "1042021408478"
+    storageBucket: "gs://trainscheduler-c5087.appspot.com",
   };
-  firebase.initializeApp(config);
+  
+firebase.initializeApp(config);
 
 var database = firebase.database();
 
