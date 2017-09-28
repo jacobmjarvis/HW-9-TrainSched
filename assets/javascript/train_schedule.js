@@ -4,7 +4,7 @@ var config = {
     authDomain: "trainscheduler-c5087.firebaseapp.com",
     databaseURL: "https://trainscheduler-c5087.firebaseio.com",
     projectId: "trainscheduler-c5087",
-    storageBucket: "",
+    storageBucket: "trainscheduler-c5087.appspot.com",
     messagingSenderId: "1042021408478"
   };
   firebase.initializeApp(config);
